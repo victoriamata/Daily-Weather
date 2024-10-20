@@ -48,16 +48,11 @@ class City {
     async getCities() {
       return await this.read().then((citiesJson) => {
         let parsedCities: City[];
-   
-   
-       
         try {
           parsedCities = [].concat(JSON.parse(citiesJson));
         } catch (err) {
           parsedCities = [];
         }
-   
-   
         return parsedCities;
       });
     }
