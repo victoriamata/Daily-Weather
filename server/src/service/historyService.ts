@@ -108,6 +108,5 @@ class City {
     }
   } 
 
-  
    export default new HistoryService();
    
