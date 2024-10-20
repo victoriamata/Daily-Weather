@@ -49,5 +49,209 @@
 				"windSpeed": "overcast clouds"
 			}
 		]
+	},
+	{
+		"name": "orlando",
+		"id": "b6034e5c-ea9d-4462-921e-afd51efebb46",
+		"weather": [
+			{
+				"city": "Orlando",
+				"date": "10/21/2024",
+				"tempF": "01d",
+				"humidity": 87,
+				"icon": 69.17,
+				"iconDescription": 7.54,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Orlando",
+				"date": "10/22/2024",
+				"tempF": "01d",
+				"humidity": 73,
+				"icon": 71.55,
+				"iconDescription": 6.69,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Orlando",
+				"date": "10/23/2024",
+				"tempF": "01d",
+				"humidity": 85,
+				"icon": 69.96,
+				"iconDescription": 6.51,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Orlando",
+				"date": "10/24/2024",
+				"tempF": "01d",
+				"humidity": 78,
+				"icon": 67.68,
+				"iconDescription": 5.77,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Orlando",
+				"date": "10/25/2024",
+				"tempF": "01d",
+				"humidity": 76,
+				"icon": 68.2,
+				"iconDescription": 4.88,
+				"windSpeed": "clear sky"
+			}
+		]
+	},
+	{
+		"name": "fort lauderdale",
+		"id": "b55d3fd1-e457-4ff6-b7f1-56ce58354c7b",
+		"weather": [
+			{
+				"city": "Fort Lauderdale",
+				"date": "10/21/2024",
+				"tempF": "10d",
+				"humidity": 70,
+				"icon": 78.6,
+				"iconDescription": 16.46,
+				"windSpeed": "light rain"
+			},
+			{
+				"city": "Fort Lauderdale",
+				"date": "10/22/2024",
+				"tempF": "10d",
+				"humidity": 71,
+				"icon": 79.2,
+				"iconDescription": 18.59,
+				"windSpeed": "light rain"
+			},
+			{
+				"city": "Fort Lauderdale",
+				"date": "10/23/2024",
+				"tempF": "03d",
+				"humidity": 71,
+				"icon": 78.51,
+				"iconDescription": 12.15,
+				"windSpeed": "scattered clouds"
+			},
+			{
+				"city": "Fort Lauderdale",
+				"date": "10/24/2024",
+				"tempF": "04d",
+				"humidity": 56,
+				"icon": 77.7,
+				"iconDescription": 9.93,
+				"windSpeed": "broken clouds"
+			},
+			{
+				"city": "Fort Lauderdale",
+				"date": "10/25/2024",
+				"tempF": "03d",
+				"humidity": 61,
+				"icon": 78.64,
+				"iconDescription": 8.75,
+				"windSpeed": "scattered clouds"
+			}
+		]
+	},
+	{
+		"name": "daytona beach",
+		"id": "a5739053-a611-485f-a29c-2b264033e143",
+		"weather": [
+			{
+				"city": "Daytona Beach",
+				"date": "10/21/2024",
+				"tempF": "01d",
+				"humidity": 75,
+				"icon": 74.21,
+				"iconDescription": 9.62,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Daytona Beach",
+				"date": "10/22/2024",
+				"tempF": "10d",
+				"humidity": 79,
+				"icon": 73.6,
+				"iconDescription": 11.5,
+				"windSpeed": "light rain"
+			},
+			{
+				"city": "Daytona Beach",
+				"date": "10/23/2024",
+				"tempF": "10d",
+				"humidity": 80,
+				"icon": 73.81,
+				"iconDescription": 9.51,
+				"windSpeed": "light rain"
+			},
+			{
+				"city": "Daytona Beach",
+				"date": "10/24/2024",
+				"tempF": "01d",
+				"humidity": 75,
+				"icon": 71.1,
+				"iconDescription": 7.87,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Daytona Beach",
+				"date": "10/25/2024",
+				"tempF": "01d",
+				"humidity": 76,
+				"icon": 72.12,
+				"iconDescription": 5.93,
+				"windSpeed": "clear sky"
+			}
+		]
+	},
+	{
+		"name": "tampa",
+		"id": "cbbfd74b-701b-4f06-80cd-f2f53dc7042f",
+		"weather": [
+			{
+				"city": "Tampa",
+				"date": "10/21/2024",
+				"tempF": "01d",
+				"humidity": 93,
+				"icon": 67.59,
+				"iconDescription": 12.93,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Tampa",
+				"date": "10/22/2024",
+				"tempF": "01d",
+				"humidity": 85,
+				"icon": 70.05,
+				"iconDescription": 10.96,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "Tampa",
+				"date": "10/23/2024",
+				"tempF": "03d",
+				"humidity": 86,
+				"icon": 68.7,
+				"iconDescription": 9.26,
+				"windSpeed": "scattered clouds"
+			},
+			{
+				"city": "Tampa",
+				"date": "10/24/2024",
+				"tempF": "04d",
+				"humidity": 79,
+				"icon": 67.95,
+				"iconDescription": 8.5,
+				"windSpeed": "overcast clouds"
+			},
+			{
+				"city": "Tampa",
+				"date": "10/25/2024",
+				"tempF": "01d",
+				"humidity": 77,
+				"icon": 67.17,
+				"iconDescription": 8.66,
+				"windSpeed": "clear sky"
+			}
+		]
 	}
 ]
