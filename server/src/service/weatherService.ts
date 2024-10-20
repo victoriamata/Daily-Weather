@@ -43,7 +43,49 @@ class WeatherService {
 
   // TODO: Complete getWeatherForCity method
   //disregard geolocation methods
-  // async getWeatherForCity(city: string): Promise<Weather[]> {}
-    
+  async getWeatherForCity(city: string): Promise<Weather[]> {
+    try {
+      console.log(city);
+      console.log(`${this.baseURL}/data/2.5/forecast?q=${city}&units=metric&appid=${this.apiKey}`);
+      let response = await fetch(`${this.baseURL}/data/2.5/forecast?q=${city}&units=imperial&appid=${this.apiKey}`);
+      if (!response.ok) {
+        throw new Error(`Error fetching data: ${response.status} ${response.statusText}`);
+      }
+ 
+      const data = await response.json();
+      console.log(data);
+      const weatherInfo = this.parseWeather(data);
+      console.log(weatherInfo);
+      return weatherInfo;
+    } catch (error) {
+      console.error(`Error:`, error);
+      throw error;
+    }
+  }
+ 
+  private parseWeather(data: any): Weather[] {
+    // Ensure there is data to parse
+    if (!data) {
+      throw new Error('No data');
+    }
+    const forecast = data.list.filter((forecastItem: any) => {
+      const time = forecastItem.dt_txt.split(' ')[1];
+      return time === '12:00:00';
+  });
+  const cityName = data.city.name;
+    const weatherInfo: Weather[] = forecast.map((forecastItem: any) => {
+      const city = cityName;
+      const date = new Date(forecastItem.dt * 1000).toLocaleDateString();
+      const tempF = forecastItem.main.temp;
+      const icon = forecastItem.weather[0].icon;
+      const iconDescription = forecastItem.weather[0].description;
+      const windSpeed = forecastItem.wind.speed;
+      const humidity = forecastItem.main.humidity;
+      return new Weather(city, date, icon, iconDescription, tempF, windSpeed, humidity);
+    });
+    console.log(weatherInfo);
+    return weatherInfo;
+  }
+ }
 
 export default new WeatherService();
