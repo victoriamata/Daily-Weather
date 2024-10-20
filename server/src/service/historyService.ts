@@ -7,13 +7,13 @@ class City {
   id: string;
   weather: [{ 
     name: string; 
+    temperature: string;
     date: string;
     icon: string;
-    iconDesc: string;
-    temperature: string;
-    humidity: string;
+    iconDescription: string;
     tempF: string;
     windSpeed: string;
+    humidity: string;
   }] | null;
   constructor(
     name: string,
@@ -65,7 +65,6 @@ class City {
       const citiesArray = await this.getCities();
       let cityExists = false;
       let existingCity = new City('','',null);
-     
       for (let i = 0; i < citiesArray.length; i++) {
         if (city.toLowerCase() === citiesArray[i].name.toLowerCase()) {
           cityExists = true;
@@ -96,10 +95,10 @@ class City {
    
     // * BONUS TODO: Define a removeCity method that removes a city from the searchHistory.json file
     async removeCity(id: string) {
-      return await this.getCities().then((cities: City[]): City[] => { // get parsed cities array
-        return cities.filter(city => city.id !== id); // filter out passed id
+      return await this.getCities().then((cities: City[]): City[] => { 
+        return cities.filter(city => city.id !== id); 
       })
-        .then((filteredCities) => this.write(filteredCities)) // write updated array back to file
+        .then((filteredCities) => this.write(filteredCities)) 
     }
   } 
 

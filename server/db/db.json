@@ -1,256 +1,256 @@
 [
 	{
-		"name": "london",
-		"id": "9258015f-5480-42f3-b993-3206c9293ab5",
-		"weather": [
-			{
-				"city": "London",
-				"date": "10/21/2024",
-				"tempF": "04d",
-				"humidity": 53,
-				"icon": 58.96,
-				"iconDescription": 10.07,
-				"windSpeed": "overcast clouds"
-			},
-			{
-				"city": "London",
-				"date": "10/22/2024",
-				"tempF": "03d",
-				"humidity": 60,
-				"icon": 59.4,
-				"iconDescription": 11.25,
-				"windSpeed": "scattered clouds"
-			},
-			{
-				"city": "London",
-				"date": "10/23/2024",
-				"tempF": "03d",
-				"humidity": 67,
-				"icon": 61.45,
-				"iconDescription": 7.11,
-				"windSpeed": "scattered clouds"
-			},
-			{
-				"city": "London",
-				"date": "10/24/2024",
-				"tempF": "01d",
-				"humidity": 64,
-				"icon": 60.75,
-				"iconDescription": 10.74,
-				"windSpeed": "clear sky"
-			},
-			{
-				"city": "London",
-				"date": "10/25/2024",
-				"tempF": "04d",
-				"humidity": 66,
-				"icon": 55.81,
-				"iconDescription": 8.84,
-				"windSpeed": "overcast clouds"
-			}
-		]
-	},
-	{
 		"name": "orlando",
-		"id": "b6034e5c-ea9d-4462-921e-afd51efebb46",
+		"id": "696b0753-c422-40cc-9a54-2448df4e1d38",
 		"weather": [
 			{
 				"city": "Orlando",
+				"tempF": 69.17,
 				"date": "10/21/2024",
-				"tempF": "01d",
-				"humidity": 87,
-				"icon": 69.17,
-				"iconDescription": 7.54,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 7.54,
+				"humidity": 87
 			},
 			{
 				"city": "Orlando",
+				"tempF": 71.55,
 				"date": "10/22/2024",
-				"tempF": "01d",
-				"humidity": 73,
-				"icon": 71.55,
-				"iconDescription": 6.69,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 6.69,
+				"humidity": 73
 			},
 			{
 				"city": "Orlando",
+				"tempF": 69.96,
 				"date": "10/23/2024",
-				"tempF": "01d",
-				"humidity": 85,
-				"icon": 69.96,
-				"iconDescription": 6.51,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 6.51,
+				"humidity": 85
 			},
 			{
 				"city": "Orlando",
+				"tempF": 67.68,
 				"date": "10/24/2024",
-				"tempF": "01d",
-				"humidity": 78,
-				"icon": 67.68,
-				"iconDescription": 5.77,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 5.77,
+				"humidity": 78
 			},
 			{
 				"city": "Orlando",
+				"tempF": 68.2,
 				"date": "10/25/2024",
-				"tempF": "01d",
-				"humidity": 76,
-				"icon": 68.2,
-				"iconDescription": 4.88,
-				"windSpeed": "clear sky"
-			}
-		]
-	},
-	{
-		"name": "fort lauderdale",
-		"id": "b55d3fd1-e457-4ff6-b7f1-56ce58354c7b",
-		"weather": [
-			{
-				"city": "Fort Lauderdale",
-				"date": "10/21/2024",
-				"tempF": "10d",
-				"humidity": 70,
-				"icon": 78.6,
-				"iconDescription": 16.46,
-				"windSpeed": "light rain"
-			},
-			{
-				"city": "Fort Lauderdale",
-				"date": "10/22/2024",
-				"tempF": "10d",
-				"humidity": 71,
-				"icon": 79.2,
-				"iconDescription": 18.59,
-				"windSpeed": "light rain"
-			},
-			{
-				"city": "Fort Lauderdale",
-				"date": "10/23/2024",
-				"tempF": "03d",
-				"humidity": 71,
-				"icon": 78.51,
-				"iconDescription": 12.15,
-				"windSpeed": "scattered clouds"
-			},
-			{
-				"city": "Fort Lauderdale",
-				"date": "10/24/2024",
-				"tempF": "04d",
-				"humidity": 56,
-				"icon": 77.7,
-				"iconDescription": 9.93,
-				"windSpeed": "broken clouds"
-			},
-			{
-				"city": "Fort Lauderdale",
-				"date": "10/25/2024",
-				"tempF": "03d",
-				"humidity": 61,
-				"icon": 78.64,
-				"iconDescription": 8.75,
-				"windSpeed": "scattered clouds"
-			}
-		]
-	},
-	{
-		"name": "daytona beach",
-		"id": "a5739053-a611-485f-a29c-2b264033e143",
-		"weather": [
-			{
-				"city": "Daytona Beach",
-				"date": "10/21/2024",
-				"tempF": "01d",
-				"humidity": 75,
-				"icon": 74.21,
-				"iconDescription": 9.62,
-				"windSpeed": "clear sky"
-			},
-			{
-				"city": "Daytona Beach",
-				"date": "10/22/2024",
-				"tempF": "10d",
-				"humidity": 79,
-				"icon": 73.6,
-				"iconDescription": 11.5,
-				"windSpeed": "light rain"
-			},
-			{
-				"city": "Daytona Beach",
-				"date": "10/23/2024",
-				"tempF": "10d",
-				"humidity": 80,
-				"icon": 73.81,
-				"iconDescription": 9.51,
-				"windSpeed": "light rain"
-			},
-			{
-				"city": "Daytona Beach",
-				"date": "10/24/2024",
-				"tempF": "01d",
-				"humidity": 75,
-				"icon": 71.1,
-				"iconDescription": 7.87,
-				"windSpeed": "clear sky"
-			},
-			{
-				"city": "Daytona Beach",
-				"date": "10/25/2024",
-				"tempF": "01d",
-				"humidity": 76,
-				"icon": 72.12,
-				"iconDescription": 5.93,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 4.88,
+				"humidity": 76
 			}
 		]
 	},
 	{
 		"name": "tampa",
-		"id": "cbbfd74b-701b-4f06-80cd-f2f53dc7042f",
+		"id": "4e5abc06-d3e0-44d7-97f6-51e4ee48c18a",
 		"weather": [
 			{
 				"city": "Tampa",
+				"tempF": 67.59,
 				"date": "10/21/2024",
-				"tempF": "01d",
-				"humidity": 93,
-				"icon": 67.59,
-				"iconDescription": 12.93,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 12.93,
+				"humidity": 93
 			},
 			{
 				"city": "Tampa",
+				"tempF": 70.05,
 				"date": "10/22/2024",
-				"tempF": "01d",
-				"humidity": 85,
-				"icon": 70.05,
-				"iconDescription": 10.96,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 10.96,
+				"humidity": 85
 			},
 			{
 				"city": "Tampa",
+				"tempF": 68.7,
 				"date": "10/23/2024",
-				"tempF": "03d",
-				"humidity": 86,
-				"icon": 68.7,
-				"iconDescription": 9.26,
-				"windSpeed": "scattered clouds"
+				"icon": "03d",
+				"iconDescription": "scattered clouds",
+				"windSpeed": 9.26,
+				"humidity": 86
 			},
 			{
 				"city": "Tampa",
+				"tempF": 67.95,
 				"date": "10/24/2024",
-				"tempF": "04d",
-				"humidity": 79,
-				"icon": 67.95,
-				"iconDescription": 8.5,
-				"windSpeed": "overcast clouds"
+				"icon": "04d",
+				"iconDescription": "overcast clouds",
+				"windSpeed": 8.5,
+				"humidity": 79
 			},
 			{
 				"city": "Tampa",
+				"tempF": 67.17,
 				"date": "10/25/2024",
-				"tempF": "01d",
-				"humidity": 77,
-				"icon": 67.17,
-				"iconDescription": 8.66,
-				"windSpeed": "clear sky"
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 8.66,
+				"humidity": 77
+			}
+		]
+	},
+	{
+		"name": "daytona beach",
+		"id": "822a3042-960a-4cf2-a430-edcbb77eb314",
+		"weather": [
+			{
+				"city": "Daytona Beach",
+				"tempF": 74.21,
+				"date": "10/21/2024",
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 9.62,
+				"humidity": 75
+			},
+			{
+				"city": "Daytona Beach",
+				"tempF": 73.6,
+				"date": "10/22/2024",
+				"icon": "10d",
+				"iconDescription": "light rain",
+				"windSpeed": 11.5,
+				"humidity": 79
+			},
+			{
+				"city": "Daytona Beach",
+				"tempF": 73.81,
+				"date": "10/23/2024",
+				"icon": "10d",
+				"iconDescription": "light rain",
+				"windSpeed": 9.51,
+				"humidity": 80
+			},
+			{
+				"city": "Daytona Beach",
+				"tempF": 71.1,
+				"date": "10/24/2024",
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 7.87,
+				"humidity": 75
+			},
+			{
+				"city": "Daytona Beach",
+				"tempF": 72.12,
+				"date": "10/25/2024",
+				"icon": "01d",
+				"iconDescription": "clear sky",
+				"windSpeed": 5.93,
+				"humidity": 76
+			}
+		]
+	},
+	{
+		"name": "fort lauderdale",
+		"id": "e39d4858-f856-4977-9446-a290086e2588",
+		"weather": [
+			{
+				"city": "Fort Lauderdale",
+				"tempF": 78.6,
+				"date": "10/21/2024",
+				"icon": "10d",
+				"iconDescription": "light rain",
+				"windSpeed": 16.46,
+				"humidity": 70
+			},
+			{
+				"city": "Fort Lauderdale",
+				"tempF": 79.2,
+				"date": "10/22/2024",
+				"icon": "10d",
+				"iconDescription": "light rain",
+				"windSpeed": 18.59,
+				"humidity": 71
+			},
+			{
+				"city": "Fort Lauderdale",
+				"tempF": 78.51,
+				"date": "10/23/2024",
+				"icon": "03d",
+				"iconDescription": "scattered clouds",
+				"windSpeed": 12.15,
+				"humidity": 71
+			},
+			{
+				"city": "Fort Lauderdale",
+				"tempF": 77.7,
+				"date": "10/24/2024",
+				"icon": "04d",
+				"iconDescription": "broken clouds",
+				"windSpeed": 9.93,
+				"humidity": 56
+			},
+			{
+				"city": "Fort Lauderdale",
+				"tempF": 78.64,
+				"date": "10/25/2024",
+				"icon": "03d",
+				"iconDescription": "scattered clouds",
+				"windSpeed": 8.75,
+				"humidity": 61
+			}
+		]
+	},
+	{
+		"name": "san diego",
+		"id": "7537bca3-0679-47e7-93e0-04167b14214d",
+		"weather": [
+			{
+				"city": "San Diego",
+				"tempF": 68.31,
+				"date": "10/21/2024",
+				"icon": "01n",
+				"iconDescription": "clear sky",
+				"windSpeed": 5.41,
+				"humidity": 48
+			},
+			{
+				"city": "San Diego",
+				"tempF": 67.5,
+				"date": "10/22/2024",
+				"icon": "03n",
+				"iconDescription": "scattered clouds",
+				"windSpeed": 4.74,
+				"humidity": 57
+			},
+			{
+				"city": "San Diego",
+				"tempF": 68.56,
+				"date": "10/23/2024",
+				"icon": "04n",
+				"iconDescription": "broken clouds",
+				"windSpeed": 4.5,
+				"humidity": 53
+			},
+			{
+				"city": "San Diego",
+				"tempF": 68.14,
+				"date": "10/24/2024",
+				"icon": "04n",
+				"iconDescription": "broken clouds",
+				"windSpeed": 3.74,
+				"humidity": 60
+			},
+			{
+				"city": "San Diego",
+				"tempF": 66.24,
+				"date": "10/25/2024",
+				"icon": "01n",
+				"iconDescription": "clear sky",
+				"windSpeed": 0.72,
+				"humidity": 70
 			}
 		]
 	}

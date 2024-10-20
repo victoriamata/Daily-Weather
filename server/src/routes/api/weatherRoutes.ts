@@ -7,11 +7,11 @@ import weatherService from '../../service/weatherService.js';
 dotenv.config();
 const router = Router();
 
-console.log(process.env);
-console.log("Start");
-console.log(process.env.API_KEY);
-console.log(process.env.API_BASE_URL);
-console.log("end");
+// console.log(process.env);
+// console.log("Start");
+// console.log(process.env.API_KEY);
+// console.log(process.env.API_BASE_URL);
+// console.log("end");
 
 // TODO: POST Request with city name to retrieve weather data
 // TODO: GET weather data from city name 
@@ -38,8 +38,8 @@ router.post('/', async (req: Request, res: Response) => {
  // TODO: GET search history
  router.get('/history', async (_req: Request, res: Response) => {
   try {
-    const cities = await historyService.getCities(); // get cities from JSON file using historyService method
-    res.status(200).json(cities); // respond with the cities
+    const cities = await historyService.getCities(); 
+    res.status(200).json(cities); // 
   } catch (error) {
     res.status(500).json({ message: 'Unable to get cities', error });
   }

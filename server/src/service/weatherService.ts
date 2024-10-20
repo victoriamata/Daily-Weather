@@ -7,25 +7,25 @@ class Weather {
   date: string;
   icon: string;
   iconDescription: string;
-  humidity: string;
   tempF: string;
   windSpeed: string;
+  humidity: string;
 
   constructor(
     city: string,
     date: string,
-    tempF: string,
-    windSpeed: string,
     icon: string,
     iconDescription: string,
+    tempF: string,
+    windSpeed: string,
     humidity: string) {
     this.city = city;
-    this.date = date;
     this.tempF = tempF;
-    this.humidity = humidity;
+    this.date = date;
     this.icon = icon;
     this.iconDescription = iconDescription;
     this.windSpeed = windSpeed;
+    this.humidity = humidity;
   }
 }
 
@@ -54,26 +54,25 @@ class WeatherService {
  
       const data = await response.json();
       console.log(data);
-      const weatherInfo = this.parseWeather(data);
-      console.log(weatherInfo);
-      return weatherInfo;
+      const weatherArray = this.parseCurrentWeather(data);
+      console.log(weatherArray);
+      return weatherArray;
     } catch (error) {
       console.error(`Error:`, error);
       throw error;
     }
   }
  
-  private parseWeather(data: any): Weather[] {
-    // Ensure there is data to parse
-    if (!data) {
-      throw new Error('No data');
+  private parseCurrentWeather(data: any): Weather[] {
+    if (!data || !data.list || data.list.length === 0) {
+      throw new Error('Invalid data');
     }
-    const forecast = data.list.filter((forecastItem: any) => {
+    const dailyForecasts = data.list.filter((forecastItem: any) => {
       const time = forecastItem.dt_txt.split(' ')[1];
       return time === '12:00:00';
   });
   const cityName = data.city.name;
-    const weatherInfo: Weather[] = forecast.map((forecastItem: any) => {
+    const weatherArray: Weather[] = dailyForecasts.map((forecastItem: any) => {
       const city = cityName;
       const date = new Date(forecastItem.dt * 1000).toLocaleDateString();
       const tempF = forecastItem.main.temp;
@@ -83,8 +82,8 @@ class WeatherService {
       const humidity = forecastItem.main.humidity;
       return new Weather(city, date, icon, iconDescription, tempF, windSpeed, humidity);
     });
-    console.log(weatherInfo);
-    return weatherInfo;
+    console.log(JSON.stringify(weatherArray));
+    return weatherArray;
   }
  }
 
