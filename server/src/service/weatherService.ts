@@ -6,7 +6,7 @@ class Weather {
   city: string;
   date: string;
   icon: string;
-  iconDesc: string;
+  iconDescription: string;
   humidity: string;
   tempF: string;
   windSpeed: string;
@@ -17,14 +17,14 @@ class Weather {
     tempF: string,
     windSpeed: string,
     icon: string,
-    iconDesc: string,
+    iconDescription: string,
     humidity: string) {
     this.city = city;
     this.date = date;
     this.tempF = tempF;
     this.humidity = humidity;
     this.icon = icon;
-    this.iconDesc = iconDesc;
+    this.iconDescription = iconDescription;
     this.windSpeed = windSpeed;
   }
 }
@@ -37,14 +37,13 @@ class WeatherService {
   // TODO: Define the baseURL, API key, and city name properties
 
   constructor() {
-    this.baseURL = process.env.API_BASE_URL || ''; 
-    this.apiKey = process.env.OPENWEATHER_API_KEY || '';
+    this.baseURL = 'https://api.openweathermap.org';
+    this.apiKey = '0fe95b8870fbf5a57093c4141326a1ca';
   }
-
 
   // TODO: Complete getWeatherForCity method
   //disregard geolocation methods
-
-}
+  // async getWeatherForCity(city: string): Promise<Weather[]> {}
+    
 
 export default new WeatherService();

@@ -14,19 +14,16 @@ console.log(process.env.API_BASE_URL);
 console.log("end");
 
 // TODO: POST Request with city name to retrieve weather data
-//router.post('/', async (req: Request, res: Response) => {}
 // TODO: GET weather data from city name 
-  
-  //api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key} USE THIS
+router.post('/', async (req: Request, res: Response) => {}
 
 // TODO: save city to search history
 
-
 // TODO: GET search history
-//router.get('/history', async (_req: Request, res: Response) => {});
+router.get('/history', async (_req: Request, res: Response) => {}
 
 
 // * BONUS TODO: DELETE city from search history
-//router.delete('/history/:id', async (_req: Request, _res: Response) => {}
+router.delete('/history/:id', async (req: Request, res: Response) => {}
 
 export default router;

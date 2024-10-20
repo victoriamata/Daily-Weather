@@ -1,1 +1,53 @@
-[]
+[
+	{
+		"name": "london",
+		"id": "9258015f-5480-42f3-b993-3206c9293ab5",
+		"weather": [
+			{
+				"city": "London",
+				"date": "10/21/2024",
+				"tempF": "04d",
+				"humidity": 53,
+				"icon": 58.96,
+				"iconDescription": 10.07,
+				"windSpeed": "overcast clouds"
+			},
+			{
+				"city": "London",
+				"date": "10/22/2024",
+				"tempF": "03d",
+				"humidity": 60,
+				"icon": 59.4,
+				"iconDescription": 11.25,
+				"windSpeed": "scattered clouds"
+			},
+			{
+				"city": "London",
+				"date": "10/23/2024",
+				"tempF": "03d",
+				"humidity": 67,
+				"icon": 61.45,
+				"iconDescription": 7.11,
+				"windSpeed": "scattered clouds"
+			},
+			{
+				"city": "London",
+				"date": "10/24/2024",
+				"tempF": "01d",
+				"humidity": 64,
+				"icon": 60.75,
+				"iconDescription": 10.74,
+				"windSpeed": "clear sky"
+			},
+			{
+				"city": "London",
+				"date": "10/25/2024",
+				"tempF": "04d",
+				"humidity": 66,
+				"icon": 55.81,
+				"iconDescription": 8.84,
+				"windSpeed": "overcast clouds"
+			}
+		]
+	}
+]
