@@ -202,5 +202,56 @@
 				"humidity": 76
 			}
 		]
+	},
+	{
+		"name": "hollywood",
+		"id": "f7a75ef3-6040-4e16-b6d8-3bf3d8ca932c",
+		"weather": [
+			{
+				"city": "Hollywood",
+				"tempF": 70.18,
+				"date": "10/22/2024",
+				"icon": "01n",
+				"iconDescription": "clear sky",
+				"windSpeed": 1.34,
+				"humidity": 28
+			},
+			{
+				"city": "Hollywood",
+				"tempF": 71.15,
+				"date": "10/23/2024",
+				"icon": "01n",
+				"iconDescription": "clear sky",
+				"windSpeed": 0.67,
+				"humidity": 28
+			},
+			{
+				"city": "Hollywood",
+				"tempF": 70,
+				"date": "10/24/2024",
+				"icon": "04n",
+				"iconDescription": "overcast clouds",
+				"windSpeed": 0.89,
+				"humidity": 39
+			},
+			{
+				"city": "Hollywood",
+				"tempF": 68.86,
+				"date": "10/25/2024",
+				"icon": "04n",
+				"iconDescription": "broken clouds",
+				"windSpeed": 1.21,
+				"humidity": 46
+			},
+			{
+				"city": "Hollywood",
+				"tempF": 69.15,
+				"date": "10/26/2024",
+				"icon": "03n",
+				"iconDescription": "scattered clouds",
+				"windSpeed": 1.36,
+				"humidity": 40
+			}
+		]
 	}
 ]
